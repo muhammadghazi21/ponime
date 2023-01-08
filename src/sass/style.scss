@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+
+$bgcolor: rgb(197, 197, 197);
+$textcolor: rgb(0, 0, 0);
+$fontsize: 18px;
+
+html,
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+}
+
+.card-list {
+  .row .col .card {
+    width: 200px;
+  }
+}
